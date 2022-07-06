@@ -42,4 +42,7 @@ To run the cross validation file
 ```
  python cross_validation.py -b 16 -t 2 -lr 0.02 -d 0.8 -e 100 -m "KR"
 ```
+N.B: This cross validation takes time. At least 30 min depending on the machine.
+
+
 
