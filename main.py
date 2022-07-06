@@ -42,23 +42,23 @@ if __name__ == "__main__":
     print( )
     y_pred  = model.predict(embedded_data(kmer_size)[2000:,:])
     
-    print("Searching for the overall accuracy ")
-    print("\n")
-    accuracy = cv.CrossValidatation(X,y,
-                                    model_name='KernelSVM',
-                                    kernel = kernel,
-                                    k=k,
-                                    power = power,
-                                    sigma = sigma,
-                                    C = C,
-                                    lambd = lambd)
-    print("DONE")
-    print("\n")
+#     print("Searching for the overall accuracy ")
+#     print("\n")
+#     accuracy = cv.CrossValidatation(X,y,
+#                                     model_name='KernelSVM',
+#                                     kernel = kernel,
+#                                     k=k,
+#                                     power = power,
+#                                     sigma = sigma,
+#                                     C = C,
+#                                     lambd = lambd)
+#     print("DONE")
+#     print("\n")
     print("*"*20,"Saving into csv file foramt","*"*20)
 
     Saved(y_pred, name="Yte")
     print(" ")
     
-    print(f"{accuracy} is th accuracy for this Hyperparameter after K-fold cross validation")
+#     print(f"{accuracy} is th accuracy for this Hyperparameter after K-fold cross validation")
 
 
