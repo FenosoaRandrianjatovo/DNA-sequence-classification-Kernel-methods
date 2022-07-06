@@ -46,3 +46,12 @@ N.B: This cross validation takes time. At least 30 min depending on the machine.
 
 
 
+# Contributors
+<img src="https://avatars.githubusercontent.com/u/98966847?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/97548404?v=4" width="100" height="100">
+------|-----|
+[Fenosoa Randrianjatovo](https://github.com/FenosoaRandrianjatovo) |[Annine Duclaire Kenne](https://github.com/annine1)
+ 
+ 
+
+
+
