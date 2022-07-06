@@ -56,7 +56,7 @@ if __name__ == "__main__":
     print("\n")
     print("*"*20,"Saving into csv file foramt","*"*20)
 
-    Saved(y_pred, name="Your_prediction_Test")
+    Saved(y_pred, name="Yte")
     print(" ")
     
     print(f"{accuracy} is th accuracy for this Hyperparameter after K-fold cross validation")
