@@ -17,7 +17,7 @@ The goal is to discriminate the Covid-19 fragments, hence the task is a binary c
 
 To generate a submission file, please start the script: main.py for the default value which gives us the same accuracy as in Kaggle leaderboard. Thereofor feel free to try different parameters 
 
-For exmpale: 
+For example: 
 
 ```
 python main.py -kmer 4 -po 2 -sg 19  -c 2 -la 40  -kr "rbf" 
